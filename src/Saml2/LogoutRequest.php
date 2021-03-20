@@ -113,9 +113,9 @@ class LogoutRequest
             }
 
             // NameID Format UNSPECIFIED omitted
-            if (!empty($nameIdFormat) && $nameIdFormat == Constants::NAMEID_UNSPECIFIED) {
-                $nameIdFormat = null;
-            }
+            //if (!empty($nameIdFormat) && $nameIdFormat == Constants::NAMEID_UNSPECIFIED) {
+                //$nameIdFormat = null;
+            //}
 
             $nameIdObj = Utils::generateNameId(
                 $nameId,
